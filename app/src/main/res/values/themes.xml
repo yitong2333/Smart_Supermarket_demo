@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.智慧商超" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/peach_pink2</item>
+        <item name="colorPrimaryDark">@color/peach_pink3</item>
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorAccent">@color/purple3</item>
+    </style>
+
+    <style name="Theme.智慧商超" parent="Base.Theme.智慧商超" />
+</resources>

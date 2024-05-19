@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/ic_login_back">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="登录"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/peach_pink1"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_login_id"
+                android:background="@drawable/border"
+                android:layout_marginTop="40dp"
+                android:padding="8dp"
+                android:hint="用户名"
+                android:drawableLeft="@drawable/ic_login_person_24"
+                android:drawablePadding="8dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_login_password"
+                android:background="@drawable/border"
+                android:layout_marginTop="40dp"
+                android:padding="8dp"
+                android:hint="密码"
+                android:drawableLeft="@drawable/ic_login_lock_24"
+                android:drawablePadding="8dp"
+                android:inputType="textPassword" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="登录"
+                android:id="@+id/btn_login_login"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"
+                app:cornerRadius = "20dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cb_login_remember"
+                    android:text="记住我"
+                    android:textSize="15sp"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/peach_pink1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_login_signup"
+                    android:text="还没有账户？去注册"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="15sp"
+                    android:textColor="@color/peach_pink1"
+                    android:layout_gravity="center"/>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

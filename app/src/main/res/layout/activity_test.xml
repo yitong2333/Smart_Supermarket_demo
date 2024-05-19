@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="用户名"
+        android:id="@+id/et_test_user"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get passoword and email"
+        android:id="@+id/btn_test_get"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="邮箱\n密码"
+        android:id="@+id/tv_test_get"/>
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:id="@+id/iv_test_avatar"
+        android:background="@color/purple2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="select a new pic"
+        android:id="@+id/btn_test_select"/>
+</LinearLayout>

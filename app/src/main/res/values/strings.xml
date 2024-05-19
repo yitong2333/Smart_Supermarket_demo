@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">智慧商超</string>
+    <string name="tv_login_title">登录</string>
+    <string name="tv_account_title">账号：</string>
+    <string name="tv_password_title">密码：</string>
+    <string name="btn_login_title">登录</string>
+    <string name="btn_reg_title">注册</string>
+    <string name="defaultAvatar">https://s2.loli.net/2024/04/23/BDQkOSTuPHZh2wN.jpg</string>
+</resources>
